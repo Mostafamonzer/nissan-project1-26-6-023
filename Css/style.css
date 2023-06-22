@@ -1,0 +1,849 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    height: 6800px ;
+    /* background-color: rgb(105, 98, 98) */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+
+.header1{
+   width: 100%;
+   height: 52px;
+   background-color: rgb(8, 8, 8);
+   overflow: auto;
+   position: relative;
+
+
+}
+
+.img1{
+   width: 75px;
+   height: 50px;
+   float: left;
+   margin-left: 50px;
+}
+
+.list1 li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 20px;
+   color: white;
+   font-size: 20px;
+}
+
+.list1{
+   float: right;
+   margin-right: 90px;
+   margin-top: 18px;
+   
+}
+.list1 a{
+   color: rgb(255, 255, 255);
+}
+
+.parent  {
+    width: 100% ;
+    height: 95vh ;
+    background-image: url(../images/speedometer-1249610_960_720.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.all{
+    width : 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.7) ;
+}
+
+.content{
+    width: 55%;
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;  
+}
+
+.title1{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:0px;
+}
+
+.p1{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 155px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+    text-transform: capitalize;
+} 
+
+.btn1{
+    background-color: white;
+    margin-right: 15px;
+}
+.btn2{
+    background-color: rgb(20, 20, 173);
+    color:white;
+}
+
+.btn:hover{
+    opacity: 0.6;
+}
+/* ---------------------container model----------------------------- */
+
+.container-model{
+   padding-top: 130px;
+   width: 90%;
+   margin: auto;
+
+
+}
+
+.parent11{
+    margin: auto;
+    overflow: auto; 
+    padding-left: 70px;
+    
+   
+ }
+
+.Model{
+    text-align: center;
+    color: rgb(5, 0, 0);
+    font-size: 50px;
+    
+   
+ }
+
+ .Add0{
+    height: 3px;
+    width: 100px;
+    border-radius: 1px;
+    background-color: rgb(16, 37, 226);
+    margin: auto;
+    margin-top: -1px;
+ }
+
+.div11{
+    height: 300px;
+    width:250px ;
+    background-color: gray;
+    border: 5px solid;
+    text-align: center;
+    margin:50px 90px ;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px;
+    float: left;
+}
+
+.tit11{
+   font-size: 30px;
+}
+.price11{
+    height:  120px;
+    width: 120px;
+    border-radius: 120px;
+    background-color:rgb(221, 204, 204);
+    text-align: center;
+    margin-left: 50px;
+ 
+  
+}
+
+.He11{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+     margin:0px;
+ 
+}
+.He12{
+    padding:0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.btn11{
+    background-color: rgba(124, 218, 218, 0.726);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+
+    
+}
+
+.btn11:hover{
+   background-color: rgb(168, 219, 120);
+ } 
+
+
+/* ------------------------container22 ------------------------------*/
+
+.container-family{
+   padding-top: 100px;
+   width: 90%;
+   margin: auto;
+ 
+
+
+}
+.family{
+   text-align: center;
+   color: rgb(5, 0, 0);
+   font-size: 50px;
+   
+  
+}
+
+.family-underline{
+   height: 3px;
+   width: 100px;
+   border-radius: 1px;
+   background-color: rgb(16, 37, 226);
+   margin: auto;
+   margin-top: -1px;
+}
+
+.parent22 {
+   margin: auto;
+   overflow: auto; 
+   margin-top: 50px;
+  
+}
+
+.car {
+   height: 400px;
+   width:30% ;
+   text-align: center; 
+   float: left;
+   background-color: gray;
+   margin: 20px 22px;
+}
+.car-photo{
+   position: relative;
+   width: 350px;
+   margin: auto;
+   margin-top: 20px;
+
+    
+}
+.overly1{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+    background-color: rgba(0, 0, 0, .5); 
+     visibility: hidden;
+    opacity: 0; 
+    transition: 1s;
+   
+}
+.name , .year {
+   font-size: 25px;
+
+}
+.overly1 a{
+   padding-top: 10px;
+   width: 40px;
+   height: 40px;
+   color: rgb(255, 255, 255);
+   display: block;
+   background-color: blue;
+   margin-left: auto;
+}
+
+.car-photo:hover .overly1{
+   visibility: visible;
+   opacity: .7;
+}
+
+/* ------------------------container - why ------------------------------*/
+.container-why{
+   padding-top: 150px;
+   height: 500px;
+   width: 90%;
+   margin: auto;
+   /* background-color:gainsboro */
+   
+ 
+}
+
+.parent-why {
+   margin: auto;
+   overflow: auto; 
+   margin-top: 50px;
+ 
+  
+  
+}
+.why1{
+   float: left; 
+
+}
+.why1-parag{
+   letter-spacing: 1px;
+   margin: 5px 5px;
+   font-size: 20px;
+}
+.why1-part1{
+   margin-left: 2px;
+   margin-bottom: 10px;
+   margin-top: 30px;
+   font-size: 30px;
+}
+.whyh2{
+   text-align: left;
+   color: rgb(5, 0, 0);
+   font-size: 50px;
+   
+  
+}
+
+.why1-underline{
+   height: 3px;
+   width: 100px;
+   border-radius: 1px;
+   background-color: rgb(16, 37, 226);
+   margin-left: 10px; 
+   margin-top: 20px;
+}
+.why2{
+   float: left;
+   margin-left: 300px;
+}
+
+.why2-img {
+height:320px;
+width: 600px;
+margin-top: 20px;
+}
+
+.why21 {
+   height: 10px;
+   width: 10px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+ 
+}
+.why21-parent{
+   margin-left: 300px;
+}
+
+.why21:hover{
+   opacity: .9;
+   background-color: blue;
+}
+/* ------------------------container - how to connect ------------------------------*/
+
+.container-connect{
+   padding-top: 250px;
+   width: 95%;
+   margin: auto;
+ 
+
+
+}
+.connecth2{
+   text-align: center;
+   color: rgb(5, 0, 0);
+   font-size: 50px;
+   
+  
+}
+
+.connect-underline{
+   height: 3px;
+   width: 100px;
+   border-radius: 1px;
+   background-color: rgb(16, 37, 226);
+   margin: auto;
+   margin-top: -1px;
+}
+.parent-connect{
+   margin: auto;
+   overflow: auto; 
+   margin-top: 50px;
+}
+.connect1{
+   width: 25%;
+   height: 230px;
+   float: left;
+   text-align: center;
+   border: 1px solid ;
+   margin: 10px 4%;
+   position: relative;
+   
+ 
+}
+
+.connect1 i {
+  font-size: 50px;
+  
+}
+
+.connect1:after{
+   content:"";
+   position: absolute;
+   
+   width: 0;
+   height: 0;
+
+   top: 0;
+   left: 0;
+   background-color: rgb(71, 69, 69);
+   opacity: 0;
+   transition: 2s;
+   
+}
+
+.connect1:hover::after{
+   width: 100%;
+   height: 100%;
+   opacity: .5;
+   
+}
+
+.connect110 {
+   color: green;
+ }
+ .connect111 {
+   color: rgb(26, 108, 216);
+ }
+ .connect112 {
+   color: rgb(4, 90, 25);
+ }
+ .connect1 p {
+   margin-top: 15px;
+ }
+
+ .connect12{
+   font-size: 30px;
+   font-weight: bold;
+ }
+ .connect13  {
+   font-size: 20px;
+ }
+
+ .connect14 {
+   font-size: 20px;
+   text-decoration: none;
+   position: relative;  
+   z-index: 1; 
+   text-align: center;    
+ }
+/* -------- container manger --------------------- */
+
+.container-manger{
+   padding-top: 150px;
+   width: 100%;
+   margin: auto;
+   
+}
+
+.parent-manger{
+   margin: auto;
+   overflow: auto; 
+   margin-top: 20px;
+   height: 500px;
+   position: relative;
+}
+.manger-parent-img{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   opacity: .5; 
+   z-index: -1;
+
+}
+.manger-part1{
+   float: left;
+   margin-left: 200px;
+   margin-top: 230px;
+
+}
+.manger1-img{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+}
+.manger-part2 , .manger-part3 {
+   float: left;
+}
+.manger-part4{
+  
+   overflow: auto;
+   text-align: center; 
+}
+.manger-part3{
+   margin-left: 20px;
+}
+.manger1-name{
+   font-size: 30px;
+   color: #fff;
+}
+
+.manger1-tit{
+   font-size: 20px;
+   color: blue;
+}
+.manger1-job {
+   color: #fff;
+   font-size: 23px; 
+} 
+
+/* ---------------- container-achive ------------------ */
+.container-achive{
+   padding-top: 70px;
+   width: 100%;
+   margin: auto;
+ 
+}
+
+.parent-achive{
+   margin: auto;
+   overflow: auto; 
+   margin-top: 20px;
+   height: 500px;
+  position: relative;
+ 
+}
+.achive-photo{
+   position: absolute;
+   z-index: -1;
+   width: 100%;
+   height: 500px;
+   opacity: .5;
+}
+
+.achive-img{
+   height: 400px;
+   width: 100%;
+}
+
+
+
+.achive-all{
+   float: left;
+   margin-left: 210px;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   margin-top: 200px;
+
+}
+.achive-1  {
+font-size: 50px;
+color: blue;
+}
+
+.achive-2{
+   font-size: 30px;
+}
+
+.achive-3{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* --------------------- Container Offer ---------------------------------  */
+
+.container-offer{
+   padding-top: 70px;
+   width: 95%;
+   margin: auto;
+
+}
+
+.offer-headline{
+   text-align: center;
+   color: rgb(5, 0, 0);
+   font-size: 50px;
+   
+  
+}
+
+.offer-underline{
+   height: 3px;
+   width: 100px;
+   border-radius: 1px;
+   background-color: rgb(16, 37, 226);
+   margin: auto;
+   margin-top: -1px;
+}
+.parent-offer{
+   overflow: auto;
+   margin: 50px 5% ; 
+ 
+}
+
+.offer-all{
+   width: 25%;
+   height: 230px;
+   border: 1px solid;
+   text-align: center;
+   position: relative;
+   float: left;
+   margin-left: 5%;
+   margin-top: 20px;
+ 
+}
+
+.offer-all::after{
+   content:"";
+   position: absolute;
+   
+   width: 0;
+   height: 0;
+
+   top: 0;
+   left: 0;
+   background-color: rgb(51, 39, 39);
+   opacity: 0;
+   transition: 1s;
+}
+.offer-all:hover::after{
+   width: 100%;
+   height: 100%;
+   opacity: .5;
+   
+}
+
+.offer-part1{
+   overflow: auto;
+   text-align: center;
+  
+
+   
+}
+
+.offer-part1-img i{
+   float: left;
+   color: rgb(46, 125, 189);
+   font-size: 50px;
+   margin: 20px 25px ; 
+
+
+}
+
+.offer-part1-parg{
+   float: left;
+   font-size: 30px;
+   margin: 25px 15px;
+}
+
+.offer-part2{
+   margin-left: 90px;
+   margin-right: 15px;  
+}
+
+/* -----------------container-Category----------------------------------- */
+
+.container-feat{
+   padding-top: 70px;
+   width: 95%;
+   margin: auto;
+
+}
+
+.feat-headline{
+   text-align: center;
+   color: rgb(5, 0, 0);
+   font-size: 50px;
+   
+  
+}
+
+.feat-underline{
+   height: 3px;
+   width: 100px;
+   border-radius: 1px;
+   background-color: rgb(16, 37, 226);
+   margin: auto;
+   margin-top: -1px;
+}
+
+.parent-feat{
+   width: 95%;
+   overflow: auto;
+   
+}
+.feat-all{
+/*    
+    border: 1px solid; */
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.feat-img{
+   position: relative;
+   float: left;
+   width: 350px;
+    height: 250px;
+    margin: auto;
+
+}
+
+.feat-overly{
+   position: absolute;
+   float: left;
+   visibility: hidden; 
+   opacity: 0;
+   background-color: rgba(0, 0, 0, .5);
+   transition: 2s;
+   height: 300px;
+   width: 355px;
+
+   
+}
+
+.feat-all:hover .feat-overly {
+   visibility: visible;
+   opacity: 1;
+   
+
+}
+.feat1{
+   font-size: 20px;
+   text-decoration: none;
+   color: rgb(106, 156, 212);
+   text-align: center;
+} 
+.feat-hover i{
+   font-size: 25px; 
+   color: rgb(106, 156, 212); 
+   margin-left: 5px;
+   background-color: rgb(18, 123, 221);
+}
+.feat-hover  {
+   padding-top: 100px;
+   padding-left: 60px;
+   position: absolute;
+}
+
+.feat-parag{
+   font-size: 20px;
+   color: #fff;
+}
+/* -------------------------fans-------------------------------------------- */
+
+.container-fans{
+   padding-top: 70px;
+   margin: auto;
+    width: 95%; 
+   
+}
+
+.fans-headline{
+   text-align: center;
+   font-size: 50px;
+}
+
+.fans-underline{
+   height: 3px;
+   width: 100px;
+   border-radius: 1px;
+   background-color: rgb(16, 37, 226);
+   margin: auto;
+   margin-top: -1px;
+}
+
+.parent-fans{
+   overflow: auto;
+  
+}
+
+.fans-all{
+   width: 25%;
+   height: 600px;
+   float: left;
+   text-align: center;
+   margin: 20px 4%;
+   position: relative;
+}
+
+.fans-all i {
+   margin: 20px 15px;
+   font-size: 10px;
+  
+}
+
+.fans-photo{
+   width: 300px;
+   height: 400px;
+}
+
+.fans-all::after{
+   content: "";
+   position: absolute;
+
+   height: 0;
+   width: 100%;
+
+   top: 0;
+   right: 0;
+  
+
+   background-color: rgb(153, 148, 141);
+   transition: 1s;
+   opacity: 0;
+}
+
+.fans-all:hover::after{
+   width: 100%;
+   height: 100%;
+   opacity: .5;
+}
+
+/* ------------------------------Footer------------------------------------ */
+
+.container-footer{
+   padding-top: 50px;
+   margin: auto;
+   width: 100%;
+   height: 300px;
+   background-color: gray;
+
+}
+.parent-footer{
+   margin: auto;
+   text-align: center;
+}
+.footer-img{
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   margin-bottom: 15px;
+  
+
+}
+.parent-footer i{
+   text-align: center;
+   font-size: 20px;
+   margin-bottom: 15px;
+   color: black;
+}
